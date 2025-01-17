@@ -1,0 +1,201 @@
+* {
+  background-color: black;
+  color: white;
+  /* font-family: Geist; */
+  /* font-family: Bricolage Grotesque; */
+}
+
+body {
+  padding-bottom: 2000px;
+}
+
+h1 {
+  font-family: Bricolage Grotesque;
+}
+
+h2 {
+  font-family: Bricolage Grotesque;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+h4 {
+  font-family: Geist;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.header-container img {
+  width: 150px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  /* position: fixed; */
+}
+
+.navigation li {
+  text-decoration: underline;
+  display: inline;
+  padding-left: 15px;
+  text-transform: capitalize;
+  font-family: Geist;
+  color: seashell;
+  cursor: pointer;
+}
+
+.navigation li:first-child {
+  padding-left: 0;
+}
+
+.section {
+  background: url("./images/bg.jpg") center center no-repeat;
+  background-size: cover;
+  /* width: 100%; */
+  height: 700px;
+  text-align: center;
+  margin: 0px 30px 40px 30px;
+  border-radius: 30px;
+}
+
+.section-texts {
+  position: relative;
+  top: 50%;
+  padding: 15px 0 15px 0;
+}
+
+.section-texts h2 {
+  margin-bottom: 20px;
+}
+
+/* .section-texts h4 {
+} */
+
+.section-2 {
+  /* max-width: 1000px; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.section-2 h2 {
+  margin-bottom: 20px;
+}
+
+.section-2 h4 {
+  margin-bottom: 20px;
+}
+
+.product-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.product-items img {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.product-items h4 {
+  margin-top: 10px;
+}
+
+.section-3 {
+  background: url("images/img-locations-background.jpg") center center no-repeat;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  margin: 0px 30px 30px 30px;
+  border-radius: 30px;
+  /* background-color: transparent; */
+  /* display: flex; */
+}
+
+.section-3 h2 {
+  position: relative;
+  top: 22%;
+  background-color: transparent;
+  color: black;
+  display: inline-block;
+}
+
+.location-menu {
+  display: flex;
+  position: relative;
+  top: 22%;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: transparent;
+}
+
+.location-row {
+  max-width: 250px;
+  padding: 50px 7px 50px 7px;
+  border-radius: 15px;
+}
+
+.location-row h5 {
+  font-family: Bricolage Grotesque;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-4 h4 {
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.location-row p {
+  font-family: Geist;
+  font-size: 15px;
+  line-height: 2rem;
+}
+
+#row1,
+#row3,
+#row2 {
+  flex-grow: 1;
+}
+
+footer {
+  text-align: left;
+  margin-left: 50px;
+  font-family: Geist;
+}
